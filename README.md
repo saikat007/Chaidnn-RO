@@ -4,7 +4,7 @@ There are two main folders in this repo. "[DONTCHANGE]_chai-old_wo-out" is the b
 
 # Setup
 
-Generallt follow setup instructions from here: https://github.com/Xilinx/CHaiDNN. I am highlighting a few steps below:
+Generally follow setup instructions from here: https://github.com/Xilinx/CHaiDNN. I am highlighting a few steps below:
 
 1) I have tested the setup on Ubuntu 18.04 and SDSoC v2018.2. The SDSoC environment should be availaible for download from the main Xilinx downloads page. Any other versions did not work for me.
 2) Once installed, follow the instructions to [Build from Source](https://github.com/Xilinx/CHaiDNN?tab=readme-ov-file#run-inference). First generate the custom platform following the instructions here: https://github.com/Xilinx/CHaiDNN/blob/master/docs/CUSTOM_PLATFORM_GEN.md. The instructions there are for ZCU102, so make sure you replace everything with the board you are using (in this case ZCU104). The global variables I used are as follows:
